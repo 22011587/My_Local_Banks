@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/bankselector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        android:text="@string/select_a_bank" />
+
+    <TextView
+        android:id="@+id/tvdbs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="@string/dbs"
+        android:onClick="buttondbsOnClick"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/tvocbc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:textSize="40dp"
+        android:onClick="buttonocbcOnClick"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:text="@string/ocbc" />
+
+    <TextView
+        android:id="@+id/tvuob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:onClick="buttonuobOnClick"
+        android:text="@string/uob"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+</LinearLayout>
